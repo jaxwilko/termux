@@ -34,7 +34,7 @@ unzip hackfont/hack.zip -d hackfont/
     rm -r hackfont
 
 pkg update -y
-pkg install -y zsh vim
+pkg install -y zsh vim git
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
