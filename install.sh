@@ -111,3 +111,12 @@ set noshowmode
 set laststatus=2
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 EOF
+
+cat > ~/../usr/etc/motd <<EOF
+  ______
+ /_  __/__  _________ ___  __  ___  __
+  / / / _ \/ ___/ __ `__ \/ / / / |/_/
+ / / /  __/ /  / / / / / / /_/ />  <
+/_/  \___/_/  /_/ /_/ /_/\__,_/_/|_|
+
+EOF
